@@ -484,26 +484,6 @@ body.dark-mode {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    .card.text-bg-dark {
-        height: auto;
-        min-height: 500px;
-    }
-
-    .card.text-bg-dark .card-img-overlay {
-        padding: 30px 20px;
-    }
-
-    .card.text-bg-dark .card-title {
-        font-size: 30px;
-    }
-
-    .card.text-bg-dark .card-text {
-        font-size: 16px;
-        line-height: 1.8;
-    }
-}
-
 footer {
     text-align: center;
     padding: 20px 0;
@@ -659,4 +639,24 @@ footer {
 .swiper-pagination-progressbar-fill {
     background: #0b5d3b !important;
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .card.text-bg-dark {
+        height: auto;
+        min-height: 500px;
+    }
+
+    .card.text-bg-dark .card-img-overlay {
+        padding: 30px 20px;
+    }
+
+    .card.text-bg-dark .card-title {
+        font-size: 30px;
+    }
+
+    .card.text-bg-dark .card-text {
+        font-size: 16px;
+        line-height: 1.8;
+    }
 }
